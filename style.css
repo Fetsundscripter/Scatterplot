@@ -3,14 +3,47 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;;
 }
 
 svg{
-    background-color: wheat;
+    background-color: rgb(17, 11, 17);
+}
+
+.bar{
+    background-color: #2B7A78;
+    border-color: #2B7A78;
+    fill: #2B7A78;
+}
+
+.dot:hover {
+    fill: rgb(221, 221, 221)
+}
+
+g {
+    color: rgb(221, 221, 221);
 }
 
 #tooltip {
     visibility: hidden;
     width: auto;
     height: auto;
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 24px; 
+    margin-bottom: 5px; 
 }
+
+#legend{
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+}
+
+#title { 
+    font-size: 28px;
+    fill: rgb(221, 221, 221);
+    text-transform: uppercase;
+}
+
