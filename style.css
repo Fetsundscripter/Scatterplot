@@ -6,5 +6,11 @@ body {
 }
 
 svg{
-    background-color: orange;
+    background-color: wheat;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
 }
