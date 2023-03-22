@@ -2,9 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-items: center;
 }
 
 svg{
-    background-color: aqua;
+    background-color: orange;
 }
